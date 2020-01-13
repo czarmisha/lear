@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+#menu {
+    visibility: hidden;
+}
+
+body {
+    width: 100%;
+}
+
+/* .number2 {
+    display: flex;
+    visibility: hidden;
+} */
+/* .menu-text{
+    display: flex;
+    visibility: hidden;
+} */
+
+/* ================================================== top header================================ */
+.top-header .container a {
+    text-decoration: none;
+    color: white !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.top-header {
+    width: 100%;
+    background: #1a56d6;
+}
+
+.top-header .container {
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    font-size: 13px;
+    margin-right: 3px;
+
+}
+
+.container {
+    padding: 0;
+}
+
+.people {
+    font-size: 12px;
+}
+
+/* ============================================== middle header ============================== */
+.middle-header {
+    box-shadow: 0 4px 5px #b0b0b0;
+}
+
+.middle-header .container {
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.middle-header .container .menu a {
+    color: #3c6afc;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.middle-header .container .menu {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .middle-header .container a:first-child {
+    padding: 0;
+} */
+
+/* ========================================= down header ==================================== */
+.down-header .container {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 100%;
+}
+
+.down-header {
+    background: url(images/flat-maket-dlya-obrazovatelnogo-sayta_02.jpg) no-repeat;
+    background-size: cover;
+    /* min-height: 100vh;
+    height: auto; */
+    height: 100vh;
+    /* flex-direction: column; */
+    /* justify-content: left; */
+    font-weight: bold;
+}
+
+.down-header .container h1 {
+    font-size: 72px;
+    margin-top: 120px;
+}
+
+.down-header .container p {
+    font-size: 30px;
+    color: #666666;
+}
+
+.down-header .container hr {
+    width: 20%;
+    height: 1px;
+    background-color: #707070;
+}
+
+.down-header .container .row {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -62px;
+    width: 100%;
+}
+
+.down-header .container .row .incol h1 {
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.down-header .container .row .incol {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #c0bdbdd3
+}
+
+.down-header .container .row .col-lg-4 {
+    padding: 0 8px;
+}
+
+.down-header .container .row .col-lg-4:first-child {
+    padding: 0 14px 0 0;
+}
+
+.down-header .container .row .col-lg-4:last-child {
+    padding: 0 0 0 14px;
+}
+
+.down-header .container .row h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    columns: #808080;
+}
+
+.down-header .container .row p {
+    font-size: 16px;
+    margin: 18px 0 16px 0;
+}
+
+.down-header .container .row .event {
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-header .container .row .event p {
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: #e6e6e6;
+}
+
+.down-header .container .row hr {
+    background-color: #3c6afc;
+    height: 1px;
+    width: 30%;
+}
+
+.down-header .container .row button {
+    color: white;
+    border: none;
+    background-color: #3c6afc;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+/* ============================================= about LMS ================================ */
+.about-LMS {
+    margin-top: 62px;
+    padding: 100px 0;
+}
+
+.about-LMS img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.about-LMS h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #192041;
+    margin-bottom: 60px;
+}
+
+.about-LMS p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 50px;
+}
+
+.about-LMS button {
+    color: white;
+    border: none;
+    background-color: #3c6afc;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ========================================== which ========================================== */
+.which {
+    background-color: #f7f7f7;
+    padding: 100px 0 0 0;
+}
+
+.which h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #4d4d4d;
+    margin-bottom: 50px;
+}
+
+.which .row .blocks {
+    text-align: center;
+    background-color: white;
+    padding: 65px 0;
+}
+
+.which .row .blocks:hover {
+    box-shadow: 0px 0px 10px #c0bdbdd3;
+}
+
+.which .row .col-lg-4 {
+    padding: 11px;
+}
+
+/* ========================================== courses ============================== */
+.courses {
+    padding: 100px 0 100px 0;
+}
+
+.courses h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #4d4d4d;
+    margin-bottom: 50px;
+}
+
+.courses .row .cards img {
+    width: 100%;
+}
+
+.courses .row .col-lg-4 {
+    margin-top: 15px;
+}
+
+.courses .row .cards:hover {
+    box-shadow: 0px 0px 10px #c0bdbdd3;
+}
+
+.courses .row .cards .card {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.courses .row .cards {
+    border: 1px solid #c0bdbdd3;
+}
+
+.courses .row .cards button {
+    color: white;
+    border: none;
+    background-color: #3c6afc;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 15px 10px 15px;
+    border-radius: 2px;
+}
+
+.courses .row .cards span {
+    font-size: 23px;
+    color: #1414d9;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+.courses .row .cards .first-p {
+    font-size: 13px;
+    color: #707070;
+    font-family: 'PT Serif', serif;
+}
+
+.courses .row .cards .second-p {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+}
+
+.courses .row .cards .img {
+    width: 70px;
+    height: 15px;
+}
+
+.courses .row .cards .img img {
+    width: 100%;
+}
+
+.courses .row .cards p {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 50px;
+    padding: 0 15px;
+}
+
+/* =============================================== achievements ============================== */
+.achievements {
+    padding: 100px 0 100px 0;
+    background-color: #f7f7f7;
+}
+
+.achievements h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #4d4d4d;
+    margin-bottom: 50px;
+}
+
+.achievements hr {
+    width: 20%;
+    height: 1px;
+    background-color: #707070;
+    margin: 45px 0;
+}
+
+.achievements p {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 50px;
+}
+
+.achievements .img-achievements {
+    width: 41px;
+    height: 50px;
+}
+
+.achievements .img-achievements img {
+    width: 100%;
+}
+
+.achievements .achievements-p h1,
+.achievements .achievements-p p {
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+
+.achievements .col-lg-3 {
+    display: flex;
+
+}
+
+.achievements .img-youtube {
+    width: 100%;
+}
+
+.achievements .img-youtube img {
+    width: 100%;
+}
+
+/* ======================================== gallery ================================== */
+.gallery {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.gallery .image-1,
+.gallery .image-2 {
+    width: 50%;
+    /* align-self: flex-start; */
+}
+
+.gallery .image-3 {
+    width: 50%;
+}
+
+.gallery .image-4 {
+    width: 100%;
+    /* align-self: flex-start; */
+}
+
+.gallery1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+/* ========================================== footer ================================= */
+.fl {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding: 100px 0 40px 0;
+    color: white;
+    background-color: #212121;
+}
+
+footer p,
+footer a {
+    color: #e6e1e1;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+footer h1,
+footer span {
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer .row {
+    margin-bottom: 50px;
+}
+
+.down-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-top: 1px solid #e6e1e1;
+}
+
+.left a {
+    margin-right: 10px;
+}
+
+/* ==================================================== media ====================================== */
+@media(max-width:992px) {
+    .middle-header .container .menu a {
+        color: #3c6afc;
+        padding: 10px 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .middle-header .container {
+        flex-direction: column;
+        padding: 40px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .middle-header .container .menu {
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .down-header .container h1 {
+        font-size: 60px;
+        margin-top: 30px;
+    }
+
+    .down-header .container p {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .down-header .container .row {
+        position: relative;
+        padding: 15px;
+        width: auto;
+    }
+
+    .down-header .container .row .col-lg-4 {
+        padding: 10px 0 0 0;
+    }
+
+    .down-header .container .row .col-lg-4:first-child {
+        padding: 10px 0 0 0;
+    }
+
+    .down-header .container .row .col-lg-4:last-child {
+        padding: 10px 0 0 0;
+    }
+
+    .about-LMS {
+        margin-top: 440px;
+        padding: 100px 0;
+    }
+
+}
+
+@media(max-width:900px) {
+    .down-header .container h1 {
+        font-size: 40px;
+        margin-top: 14px;
+    }
+
+    .down-header .container p {
+        font-size: 20px;
+        color: #666666;
+    }
+
+    .about-LMS {
+        margin-top: 50px;
+        padding: 100px 0;
+    }
+
+    .down-header {
+        height: auto;
+    }
+}
+
+@media(max-width:800px) {
+
+
+    /* .middle-header .number2 {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0;
+        justify-content: space-between;
+        text-align: center;
+        height: 0;
+    } */
+    .middle-header .container .menu {
+        flex-direction: column;
+        height: 0;
+        overflow: hidden;
+    }
+    .middle-header .container{
+        flex-direction: column;
+    }
+    #menu{
+        visibility: visible;
+        position: absolute;
+        right: 100px;
+        top: 100px;
+    }
+    .middle-header .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* .middle-header .menu-text {
+        flex-direction: column;
+    } */
+
+    .top-header .container {
+        display: flex;
+        padding: 15px 15px;
+        justify-content: space-between;
+    }
+
+    .down-header {
+        background-size: contain;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .down-header .container p {
+        font-size: 17px;
+        color: #666666;
+    }
+
+    .about-LMS {
+        margin-top: 50px;
+        padding: 100px 0;
+    }
+}
